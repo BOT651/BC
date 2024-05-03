@@ -12,7 +12,7 @@ throw false
 let res = await fetchJson(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/tebaklagu.json`)
 let json = res[Math.floor(Math.random() * res.length)]    
 let caption = `
-ADIVINA EL TITULO DE LA CANCION
+ADIVINA EL TITULO DE LA CANCIOON
 Tiempo ${(timeout / 1000).toFixed(2)} segundos
 Escribe *${usedPrefix}pista* Para obtener una pista
 Premio: ${poin} XP
