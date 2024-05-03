@@ -19,14 +19,14 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `╭「𝐁𝐂❥」
-│➯ *𝙷𝙾𝙻𝙰,➟${taguser}
-│➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁:Bryxn 
-│➯ *𝙸𝙽𝙵𝙾: Wa.me/+593962753376
-│𝐁𝐂
-│➯ *ғᴇᴄʜᴀ:➟${date}
-│➯ *ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
-│➯ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
+let str = `╭「 𝗕𝗖 」
+│➯ *HOLA:* ,➟${taguser}
+│➯ *CREADOR:* Bryxn 
+│➯ *NFO:* Wa.me/+593962753376
+│➯ 𝗕𝗖
+│➯ *FECHA:*➟${date}
+│➯ *TIEMPO ACTIVO:* ➟${uptime}
+│➯ *USUARIOS:* ➟${rtotalreg}
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「➻❥ *Activar&apagar* ➻❥」
