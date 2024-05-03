@@ -14,17 +14,17 @@ let username = conn.getName(who)
 let prem = global.prems.includes(who.split `@` [0])
 let sn = createHash('md5').update(who).digest('hex')
 let str = `╭「𝐁𝐨𝐭𝐜𝐢𝐭𝐨 𝐈𝐙𝐍」
-│➯ *𝙽𝙾𝙼𝙱𝚁𝙴:* ${username} ${registered ? '(' + name + ') ': ''}
-│➯ *🌐𝙻𝙸𝙽𝙺:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
-│➯ *Rango:* ${role}
-│➯ *✳️️Nivel:* ${level}
-│➯ *🧿Experiencia:* ${exp}
-│➯ *💎Diamantes:* ${limit} 𝚄𝚂𝙾𝚂
+│➯ *NOMBRE:* ${username} ${registered ? '(' + name + ') ': ''}
+│➯ *🌐LINK:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
+│➯ *RANGO:* ${role}
+│➯ *✳️️NIVEL:* ${level}
+│➯ *🧿EXPERIENCIA:* ${exp}
+│➯ *💎DIAMANTES:* ${limit} 𝚄𝚂𝙾𝚂
 │➯ *👾Hades-Coins:* ${money}
-│➯ *🪙Tokens:* ${joincount}
-│➯ *💥𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾:* ${registered ? 'Si': 'No'}
-│➯ *✔️𝙿𝚁𝙴𝙼𝙸𝚄𝙼:* ${premiumTime > 0 ? 'Si' : (isPrems ? 'Si' : 'No') || ''}
-│➯ *📝𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴:* 
+│➯ *🪙TOKES:* ${joincount}
+│➯ *💥REGISTRADO:* ${registered ? 'Si': 'No'}
+│➯ *✔️PREMIUN:* ${premiumTime > 0 ? 'Si' : (isPrems ? 'Si' : 'No') || ''}
+│➯ *📝NUMRO DE SERIE:* 
 │➯ *${sn}*
 ╰───────────────╯`
 conn.sendMessage(m.chat, { image: { url: pp }, caption: str }, { quoted: m })
