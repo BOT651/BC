@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-await m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯ *(♦️)*PON EL TEXTO DEL AUDIO QUE QUIERES REPRODUCIR*\n︎╰───────────────╯\n\n\n╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯ *(♦️)*PUT THE TEXT OF THE AUDIO YOU WANT TO PLAY*\n︎╰───────────────╯`)
+await m.reply(`╭「 𝗕𝗖 」\n│➯ *(♦️)*PON EL TEXTO DEL AUDIO QUE QUIERES REPRODUCIR*\n︎╰───────────────╯\n\n\n╭「 𝗕𝗖 」\n│➯ *(♦️)*PUT THE TEXT OF THE AUDIO YOU WANT TO PLAY*\n︎╰───────────────╯`)
 let pp = imagen3
 let vn = './Audios/menu.mp3'
 let img = await(await fetch('https://imgur.com/a/hXvC3ST')).buffer()
@@ -18,13 +18,13 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「𝐁𝐂」
-│➯ *𝙷𝙾𝙻𝙰,➟${taguser}
-│➯ *ᴏᴡɴᴇʀ:ᴏғᴄ➟Bryxn 
-│➯ *𝙸𝙽𝙵𝙾: Wa.me/+593962753376
-│𝐁𝐂
-│➯ *ғᴇᴄʜᴀ:➟${date}
-│➯ *ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
+let str = `╭「 𝗕𝗖 」
+│➯ *HOLA:* ,➟${taguser}
+│➯ *OWNER:* ➟Bryxn 
+│➯ *NFO:* Wa.me/+593962753376
+│➯ 𝗕𝗖
+│➯ *FECHA:* ➟${date}
+│➯ *TIEMPO ACTIVO:* ➟${uptime}
 │➯ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
