@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-await m.reply(`╭「𝐁𝐂」\n│➯(♦️)*Hola estás en el menú+18 elige una opción y pide una imagen*\n╰───────────────╯\n\n\n╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯(♦️)*Hello you are in the menu+18 choose an option and ask for an image*\n╰───────────────╯`)
+await m.reply(`╭「𝗕𝗖」\n│➯(♦️)*Hola estás en el menú+18 elige una opción y pide una imagen*\n╰───────────────╯\n\n\n╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯(♦️)*Hello you are in the menu+18 choose an option and ask for an image*\n╰───────────────╯`)
 let pp = imagen4
 let img = await(await fetch('https://i.imgur.com/JP52fdP.jpg')).buffer()
 let d = new Date(new Date + 3600000)
@@ -17,17 +17,17 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「𝐁𝐂」
-│➯𝙷𝙾𝙻𝙰,➟${taguser}
-│➯𝙲𝚁𝙴𝙰𝙳𝙾𝚁:Bryxn 
-│➯*𝙸𝙽𝙵𝙾: Wa.me/+593962753376
-│𝐁𝐂
-│➯ғᴇᴄʜᴀ:➟${date}
-│➯ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
-│➯ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
+let str = `╭「 𝗕𝗖 」
+│➯ *HOLA:*,➟${taguser}
+│➯ *CREADO:* Bryxn 
+│➯ *INFO*: Wa.me/+593962753376
+│➯ 𝗕𝗖
+│➯ *FECHA:* ➟${date}
+│➯ *TIEMPO ACTIVO:* ➟${uptime}
+│➯ *USUARIOS:* ➟${rtotalreg}
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+╭「➻❥ 𝗕𝗢𝗧 ➻❥」
 │➯*Menu*+18*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
