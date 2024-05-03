@@ -111,7 +111,7 @@ return { conversation: "hello, i'm OFC-YOVANI" }},
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['Aleizn-MD','Safari','9.7.0'],
+browser: ['BRYAN','Safari','9.7.0'],
 version   
 }
 
@@ -135,7 +135,7 @@ if (opts['server']) (await import('./server.js')).default(global.conn, PORT)
         Aunque no dudara tan solo un segundo
         que me arrepiento de ser un grasoso
         Por que la grasa es un sentimiento
-        - El waza 👻👻👻👻 (Aiden)            */
+        - El waza 👻👻👻👻 (YO)            */
    
    /* Yo tambien se hacer momazos Aiden... 
       ahi te va el ajuste de los borrados 
@@ -256,12 +256,12 @@ conn.ev.off('creds.update', conn.credsUpdate)
   
 conn.welcome = '╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾/𝙰* \n*║*\n*╟❧ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾:*\n\n@desc\n\n*║*\n*╟❧ 𝙳𝙸𝚂𝙵𝚁𝚄𝚃𝙰 𝚃𝚄 𝙴𝚂𝚃𝙰𝙳𝙸𝙰!!*\n*╚══════════════*'
 conn.bye = '╔══════════════*\n*╟❧ @user*\n*╟❧ 𝙲𝚄𝙸𝙳𝙰𝚃𝙴 🌱* \n*╚══════════════*'
-conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂\n\n*ADMINS GROUP JOINS!!*'
-conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!\n\n*ABANDONED THE ADMIN GROUP*'
-conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n *GROUP DESCRIPTION HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc'
-conn.sSubject = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾\n\n*THE NAME OF THE GROUP HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject'
-conn.sIcon = '*𝚂𝙴 𝙷𝙰 𝙲𝙰𝙼𝙱𝙸𝙰𝙳𝙾 𝙻𝙰 𝙵𝙾𝚃𝙾 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n\n\n*GROUP PHOTO HAS BEEN CHANGED*'
-conn.sRevoke = '*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!\n\n*THE GROUP LINK HAS BEEN UPDATED*\n*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke'
+conn.spromote = '*@user SE SUMA AL GRUPO DE ADMINS*\n\n*ADMINS GROUP JOINS!!*'
+conn.sdemote = '*@user ABANDONA EL GRUPO DE ADMINS* !!\n\n*ABANDONED THE ADMIN GROUP*'
+conn.sDesc = '*SE HA MODIFICADO LA DESCRIPCION DEL GRUPO*\n\n *GROUP DESCRIPTION HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc'
+conn.sSubject = '*SE A MODIFICADO LA DESCRIPCION DEL GRUPO*\n\n*THE NAME OF THE GROUP HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject'
+conn.sIcon = '*SE HA CAMBIADO LA FOTO DEL GRUPO*\n\n\n*GROUP PHOTO HAS BEEN CHANGED*'
+conn.sRevoke = '*SE GA ACTUALIZADO EL LINK DEL GRUPO*\n\n*THE GROUP LINK HAS BEEN UPDATED*\n*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke'
 
 conn.handler = handler.handler.bind(global.conn)
 conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
