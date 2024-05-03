@@ -18,25 +18,25 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「𝙿𝚁𝙴𝙲𝙸𝙾𝚂 𝙳𝙴 𝙰𝙻𝙴𝙸𝚉𝙽」
-│🍁 *𝙷𝙾𝙻𝙰 𝚀𝚄𝙴 𝚃𝙰𝙻-${taguser}
-│🍁 **𝙴𝚂𝚃𝙴 𝙴𝚂 𝙼𝙸 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙲𝙾𝙽𝚂𝚄𝙻𝚃𝙰𝚂:51992621601*
-│🍁 *𝚃𝙴𝙽𝙶𝙾 𝙳𝙸𝙵𝙴𝚁𝙴𝙽𝚃𝙴𝚂 𝙿𝚁𝙴𝙲𝙸𝙾𝚂 𝙿𝙰𝚁𝙰 𝙼𝙸𝚂 𝙱𝙾𝚃𝙲𝙸𝚃𝙾𝚂
+let str = `╭「 *PRECIO BOT* 」
+│🍁 *HOLA QUE TAL*-${taguser}
+│🍁 *ESTE ES MI NUMERO DE CONSULTAS*
+│🍁 *TENGO DIFERENTES PRECIOS PARA BOTS*
 ︎╰───────────────╯
-🍁᭢━━━━━ALEIZN-MD━━━━᭥🍁᭢
-╭「𝐏𝐀𝐐𝐔𝐄𝐓𝐄 𝐃𝐄 𝐁𝐎𝐓𝐒 𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐀𝐃𝐎𝐑」
-│-𝙿𝙰𝚁𝙰 𝙴𝚂𝚃𝙴 𝙱𝙾𝚃 𝚃𝙴𝙽𝙶𝙾 𝙴𝙻 𝙱𝙾𝚃 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃𝙴- 𝙱𝙾𝚃 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻𝙸𝚉𝙰𝙳𝙾- 𝙱𝙾𝚃 𝙿𝚁𝙾𝙿𝙸𝙾𝚂-𝙱𝙾𝚃 𝙿𝙻𝚄𝚂
-│😼𝙱𝙾𝚃 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃𝙴:  Este bot lleva una personalizacion del creador es permanente y no tiene limite de grupos y te enseño a programarlo y aque tu mismo lo pongas en un numero
-│😼𝙱𝙾𝚃 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻𝙸𝚉𝙰𝙳𝙾:  Este vendria ser un bot permanente de igual manera pero con lleva una personalizacion DE TU CLAN O TEAM O COMUNIDAD O E-SPORT Sin limite de grupos
-│😼𝙱𝙾𝚃 𝙿𝚁𝙾𝙿𝙸𝙾:  Este es un bot con permiso de venta aclaro que este bot es el unico que puede ser vendido y lleva la personalizacion que tu quieras mas veloz y sin limite de grupos
-│😼𝙱𝙾𝚃 𝙸𝚉𝙽:  Este es un nuevo bot mejor lanzado sus beneficios son. Personalizacion tuya o la que quieras - La info de creador lleva directo tu numero y nombre - Lleva mas de 3 Etiquetas
+🍁᭢━━━━━ BOT━━━━᭥🍁᭢
+╭「 *PAQUETE DEL PROGRAMADOR* 」
+│- PARA ESTEBOT TENGO BOT PERMANTNETE - BOT GRUOAL - BOT PROPIO
+│😼 *BOT GRUPAL* :  Este bot lleva para grupo con datos del creador y no tiene limite de grupos y te enseño a programarlo y aque tu mismo lo pongas en un numero
+│😼 *BOT PERMANENTE* :  Este vendria ser un bot permanente de igual manera pero con lleva una personalizacion DE TU CLAN O TEAM O COMUNIDAD O E-SPORT Sin limite de grupos
+│😼 *BOT PROPIO* :  Este es un bot con permiso de venta aclaro que este bot es el unico que puede ser vendido y lleva la personalizacion que tu quieras mas veloz y sin limite de grupos
+│😼 *BOT IZN* :  Este es un nuevo bot mejor lanzado sus beneficios son. Personalizacion tuya o la que quieras - La info de creador lleva directo tu numero y nombre - Lleva mas de 3 Etiquetas
 │Diferentes diseños o diferentes nombres si deseas - Super Rapidez - Y te enseño como lograr que ande conectado sin necesidad de tener internet ni termux en momentos de emergencia
 ╰───────────────╯
 ╭「𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 𝐃𝐄 𝐁𝐎𝐓𝐂𝐈𝐓𝐎𝐒 𝐏𝐀𝐑𝐀 𝐆𝐑𝐔𝐏𝐎𝐒」
-│💌BOT MENSUAL : Este bot es unido a 3 grupos mediante a link por todo 1 MES
-│💌BOT TRIMESTRAL : Este Bot es unido a 4 grupos mediante a link por 3 MESES
-│💌BOT PERMANENTE : Bot unido a 3 grupos mediante a links de forma permanente(No me hago responsable si sacan al bot del grupo)
-│💌BOT PERMANENTE PLUS :Bot unido a 5 grupos mediante a links de forma permanente(No me hago responsable si sacan al bot del grupo)
+│💌 *BOT MENSUAL* : Este bot es unido a 3 grupos mediante a link por todo 1 MES
+│💌 *BOT TRIMESTRAL* : Este Bot es unido a 4 grupos mediante a link por 3 MESES
+│💌 *BOT PERMANENTE* : Bot unido a 3 grupos mediante a links de forma permanente(No me hago responsable si sacan al bot del grupo)
+│💌 *BOT PROPIO* :Bot unido a 5 grupos mediante a links de forma permanente(No me hago responsable si sacan al bot del grupo)
 ╰───────────────╯
 ╭「𝐀𝐂𝐋𝐀𝐑𝐀𝐂𝐈𝐎𝐍𝐄𝐒」
 │🤖NO HAGO VIDA SOCIAL AL PRIVD
