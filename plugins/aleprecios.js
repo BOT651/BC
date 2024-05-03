@@ -18,28 +18,28 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「𝙿𝚁𝙴𝙲𝙸𝙾𝚂 𝙳𝙴 𝙰𝙻𝙴𝙸𝚉𝙽」
-│🍁 *𝙷𝙾𝙻𝙰 𝚀𝚄𝙴 𝚃𝙰𝙻-${taguser}
-│🍁 *𝚃𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙾 𝚂𝙾𝚈 𝙰𝙻𝙴𝙸𝚉𝙽-𝙼𝙳
-│🍁 *𝙴𝚂𝚃𝙴 𝙴𝚂 𝙼𝙸 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙲𝙾𝙽𝚂𝚄𝙻𝚃𝙰𝚂:51992621601
-│🍁 *𝚃𝙴𝙽𝙶𝙾 𝙳𝙸𝙵𝙴𝚁𝙴𝙽𝚃𝙴𝚂 𝙿𝚁𝙴𝙲𝙸𝙾𝚂 𝙿𝙰𝚁𝙰 𝙼𝙸𝚂 𝙱𝙾𝚃𝙲𝙸𝚃𝙾𝚂
+let str = `╭「 💎 」
+│🍁 *HOLA QUE TAL* -${taguser}
+│🍁 *TE INFORMO SOY BOT*
+│🍁 *ESTE ES MI NUMERO DE CONUSLTA*
+│🍁 *TENGO DIFERENTE PRECIOS*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「𝐏𝐑𝐄𝐂𝐈𝐎𝐒 𝐃𝐄 𝐏𝐀𝐐𝐔𝐄𝐓𝐄 𝐃𝐄 𝐁𝐎𝐓𝐒 𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐀𝐃𝐎𝐒」
-💌Bot Permanente : 🇵🇪10 Yape🇨🇱 3000 Ctu Rut🇦🇷1000 Cbu🇧🇴Tigo 20🇲🇽70 MX 🇨🇴13000💎 300
+╭「 *PRECIOS BOT* 」
+💌Bot Permanente :  300
 
-💌Bot Personalizado : 🇵🇪15 Yape🇨🇱4500 Ctu Rut🇦🇷1500 Cbu🇧🇴Tigo 30🇲🇽110 MX 🇨🇴19500💎500
+💌Bot Personalizado : 💎500
 
-💌Bot Propio : 🇵🇪20 Yape🇨🇱6000 Ctu Rut 🇦🇷2000 Cbu🇧🇴Tigo 39🇲🇽150 MX🇨🇴26000💎700
+💌Bot Propio : 💎700
 
-💌Bot IZN : 🇵🇪25 Yape🇨🇱7000 Ctu Rut 🇦🇷2500 Cbu🇧🇴Tigo 50🇲🇽200 MX🇨🇴3200💎800
+💌Bot IZN :💎1000
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「𝐏𝐑𝐄𝐂𝐈𝐎𝐒 𝐃𝐄 𝐁𝐎𝐓𝐂𝐈𝐓𝐎𝐒 𝐏𝐀𝐑𝐀 𝐆𝐑𝐔𝐏𝐎𝐒」
-│💌BOT MENSUAL : 🇵🇪5 Yape 🇦🇷 500 CBU 🇨🇱 1500 Ctu Rut 🇧🇴Tigo 12  💎 200
-│💌BOT TRIMESTRAL : 🇵🇪15 Yape 🇦🇷 1500 CBU 🇨🇱 4500 Ctu Rut 🇧🇴Tigo 36  💎 500
-│💌BOT PERMANENTE : 🇵🇪20 Yape🇨🇱6000 Ctu Rut 🇦🇷2000 Cbu🇧🇴Tigo 39🇲🇽150 MX🇨🇴26000💎700
-│💌BOT PERMANENTE PLUS :🇵🇪25 Yape🇨🇱7000 Ctu Rut 🇦🇷2500 Cbu🇧🇴Tigo 50🇲🇽180 MX🇨🇴35000💎800
+│💌BOT MENSUAL : 💎 200
+│💌BOT TRIMESTRAL : 💎 500
+│💌BOT PERMANENTE : 💎700
+│💌BOT PERMANENTE PLUS 💎1000
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「𝐀𝐂𝐋𝐀𝐑𝐀𝐂𝐈𝐎𝐍𝐄𝐒」
