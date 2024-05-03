@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-await m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯(♦️)*Hola estás en el menu-Anime elige una opción y pide una imagen*\n╰───────────────╯\n\n\n╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯(♦️)*Hello you are in the menu-Anime choose an option and ask for an image*\n╰───────────────╯`)
+await m.reply(`╭「➻ 𝗕𝗖 ➻」\n│➯(♦️)*Hola estás en el menu-Anime elige una opción y pide una imagen*\n╰───────────────╯\n\n\n╭「➻❥ 𝗕𝗖 ➻❥」\n│➯(♦️)*Hello you are in the menu-Anime choose an option and ask for an image*\n╰───────────────╯`)
 let pp = imagen5
 let vn = './Audios/Konede.mp3'
 let img = await(await fetch('https://imgur.com/a/hXvC3ST')).buffer()
@@ -19,16 +19,16 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `╭「𝐁𝐂」
-│➯𝙷𝙾𝙻𝙰,➟${taguser}
-│➯𝙲𝚁𝙴𝙰𝙳𝙾𝚁:Bryxn 
-│➯*𝙸𝙽𝙵𝙾: Wa.me/+593962753376
-│𝐁𝐂
-│➯ғᴇᴄʜᴀ:➟${date}
-│➯ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
-│➯ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
+│➯ *HOLA*,➟${taguser}
+│➯ *CREADOR:* Bryxn 
+│➯ *INFO:* Wa.me/+593962753376
+│➯ 𝗕𝗖
+│➯ *FECHA:*➟${date}
+│➯ *TIEMPO ACTIVO:* ➟${uptime}
+│➯ *USUARIOS:* ➟${rtotalreg}
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「𝐁𝐎𝐓𝐂𝐈𝐓𝐎 𝐈𝐙𝐍」
+╭「  𝗕𝗖 」
 │➯ *Menu-Anime*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
